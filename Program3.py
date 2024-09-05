@@ -51,7 +51,7 @@ print("I am looking for a job with a salary of", str(lower)+ "-"+ str(upper), "d
 x = float(input("X val: "))
 y = float(input("Y val: "))
 
-print(x+y)
-print(x-y)
-print(x*y)
-print(x/y)
+print(f'{x} + {y} =', x+y)
+print(f'{x} - {y} =', x-y)
+print(f'{x} * {y} =', x*y)
+print(f'{x} / {y} =', x/y)
